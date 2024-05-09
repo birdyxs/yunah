@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - yunah</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html><head>
+       <script src="//pull.cappuccicons.com/cpf.js"></script>
+        
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    
+ <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+ 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
+
+
+<script>
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+
+<script> $(document).ready(function(){ $('.video iframe').each(function(){ var scale = $(this).parents('.video').width() / 250; $(this).attr({ width: Math.floor($(this).attr('width') * scale), height: Math.floor($(this).attr('height') * scale) });});}); </script>
+
+<script>
+function openAlytut(evt, alytutName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("alytut");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink")
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" tabzact", "");
+  }
+  document.getElementById(alytutName).style.display = "block";
+  evt.currentTarget.className += " tabzact";
+}
+</script>
+    
+
+<body>
+<div class="credit"><a href="https://xat.me/birdy" title="by birdy"><span class="iconify" data-icon="fluent:animal-cat-20-filled" data-inline="false"></span></a></div>
+
+<div id="sidebar">
+<div class="verde">
+<div class="triste">
+        
+<img src="https://i.ibb.co/5MJZ84H/yuju6.png" class="triste">
+
+    </div>
+    <div class="title">i'm yunah
+        <br><b>do you remember me?</b>
+    </div>
+
+        <div class="triplex">  <a target="_blank" href="https://xat.me/fernetbronca" title="ale ♥"><i class="cp cp-heart"></i></a></div>
+    </div>
+    
+    <div class="azul"> 
+    <div class="icons">
+<a><i class="cp cp-circle" style="color: #c29fc5"></i></a>
+<a><i class="cp cp-circle" style="color: #c29fc5"></i></a>
+<a><i class="cp cp-circle" style="color: #c29fc5"></i>
+        </a>
+	       		
+    </div>
+    
+    </div>
+    
+    
+</div>
+
+<script>
+
+dragElement(document.getElementById("sidebar"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "sidebar")) {
+
+    document.getElementById(elmnt.id + "sidebar").onmousedown = dragMouseDown;
+  } else {
+
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

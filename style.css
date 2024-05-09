@@ -1,0 +1,205 @@
+@font-face{ 
+	font-family: 'cocogoose';
+	src: url('https://static.tumblr.com/evdci5g/wJoqwgw7i/cocogoose_pro_light-trial-webfont.eot');
+	src: url('https://static.tumblr.com/evdci5g/wJoqwgw7i/cocogoose_pro_light-trial-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('https://static.tumblr.com/evdci5g/scRqwgw7l/cocogoose_pro_light-trial-webfont.woff') format('woff');
+}
+
+.iframe-controls--desktop {
+   position:fixed;
+   top:0px;
+   right:0px;
+   z-index:214748364789123456789;
+   -webkit-transform:scale(0.6,0.6);
+   -webkit-transform-origin: 100% 0%;
+   -ms-transform-origin:100% 0%;
+   -ms-transform:scale(0.6,0.6);
+   transform:scale(0.6,0.6);
+   transform-origin:100% 0%;
+}
+    
+body {
+   background: #dcdcdc;
+   background-image: url(https://i.ibb.co/SBYG5TG/ndpoDT0.png);
+   font-family: 'ABeeZee', sans-serif;
+   font-size: 11px;
+   background-repeat: repeat;
+   color: #000000;
+   text-transform: lowercase;
+   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display:none;
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; color: #000000; font-weight: bold;}
+
+a:hover { color: #f3aa77; transition: 0.35s ease-in-out; }
+
+b, strong { color: #787878; font-weight: bold; font-size: 11px;}
+
+i, italic, em { color: #787878; }
+
+u, underline { color: #000000; }
+
+stroke { color: #000000; }
+
+h1 { color: #e88f98; font-size: 15px; font-weight: bold; font-family: 'cocogoose', arial; margin-top: 10px; letter-spacing: 2px; text-align: center; padding-bottom: 8px;}
+
+h2 { color: #787878; font-size: 15px; font-weight: bold; font-family:'cocogoose', arial; text-align: center; margin-left: -8px;}
+
+h3 { font-size: 11px; font-family: 'cocogoose', arial; border-top: 1px solid #dcdcdc; padding-top: 20px; text-align: center; margin-left: -22px; width: 250px; margin-bottom: 0px;}
+    
+blockquote {
+    padding: 0px 8px 0px 18px;
+    margin: 10px 8px 8px;
+    border-left:1px solid ;
+}
+   
+blockquote img {     
+    max-width:100%;
+    height:auto;
+}
+
+img {
+     max-width: 100%;
+}
+
+ul {list-style: none;
+}
+
+ul li:before {
+    content: url('https://api.iconify.design/ci:heart-outline.svg?height=9');
+    vertical-align: -0.125em;
+    margin-right: 5px;
+    margin-left: -35px;
+    color: #e88f98;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+#sidebar {
+   background: transparent;
+   width:320px;
+   height:120px;
+   left: 37%;
+   top: 230px;
+   position: absolute;
+   border-radius: 10px;
+   z-index: 6;
+   border: 1px solid #dcdcdc;
+}
+
+.verde {
+    background: #f5f5f5;
+    background-image: url(https://assets.tumblr.com/images/x.gif?v=1);
+    width: 320px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 10px;
+    
+} 
+
+.triste {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 65px;
+    position: absolute;
+    color: #c29fc5;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    
+    top: 28px;
+    left: 10px;
+    
+}
+
+.triste img {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+  
+.triplex {
+    background: transparent;
+    width: 190px;
+    height: 11px;
+    left: 105px;
+    top: 71px;
+    position: absolute;
+    color: #c29fc5;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 23px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.triplex i {color: #c29fc5;}
+
+.title {
+    background: transparent;
+    width: 134px;
+    height: auto;
+    left: 78px;
+    top: 68px;
+    position: absolute;
+    font-size: 14px;
+    color: #787878;
+    font-family: 'cocogoose', arial;
+    text-align: left;
+    font-weight: bold;
+} 
+
+.title b {font-size: 11px; color: #c29fc5; font-weight: 600; font-family: 'ABeeZee', sans-serif; margin-left: 2px; text-align: left;}
+
+.azul {
+    background: transparent;
+    width: 220px;
+    height: 25px;
+    left: -20px;
+    top: 10px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 0px 0px 10px 10px;
+} 
+
+.icons {
+    background: transparent;
+    width: 200px;
+    height: 10px;
+    left: 3px;
+    top: 7px;
+    position: absolute;
+    border-radius: 25px;
+    text-align: right;
+} 
+
+.icons a {font-size: 10px; margin-right: 5px;}
+
+/* credits. do not touch here!!!!! */
+
+.credit {
+    background: transparent;
+    color: #c29fc5;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    left: 96%;
+    top: 575px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+}
+
+.credit a {color:#c29fc5; font-size: 20px; font-weight: 800;}
